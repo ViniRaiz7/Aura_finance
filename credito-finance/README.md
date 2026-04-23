@@ -179,3 +179,4 @@ npm start
 ---
 
 *Hackathon Semana Ubíqua 2026 — Open Finance*
+Aura + ego
