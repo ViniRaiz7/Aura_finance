@@ -1,0 +1,20 @@
+{
+  "name": "credito-autonomo",
+  "version": "1.0.0",
+  "description": "Plataforma de crédito para autônomos com score alternativo — Hackathon Semana Ubíqua 2026",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "uuid": "^14.0.0"
+  }
+}
